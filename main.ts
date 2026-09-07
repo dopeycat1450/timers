@@ -1,7 +1,11 @@
 //% color=#615eff icon="\uf2f2"
 namespace timers {
-    let timerBase: number[] = []
-    let timerNames: string[] = []
+    //%whenUsed
+    let timerBase: number[]
+    //%whenUsed
+    let timerNames: string[]
+
+
 
     /**
      * Start a new timer with the given name
