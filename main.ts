@@ -1,9 +1,14 @@
 //% color=#615eff icon="\uf2f2"
 namespace timers {
-    //%whenUsed
     let timerBase: number[]
-    //%whenUsed
     let timerNames: string[]
+
+    function ensureInit() {
+        if (timerNames === undefined) {
+            timerNames = []
+            timerBase = []
+        }
+    }
 
 
 
